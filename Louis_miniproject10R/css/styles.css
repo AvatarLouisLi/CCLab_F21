@@ -1,0 +1,35 @@
+body {
+	font-family: 'Helvetica';
+  background-color: chocolate;
+}
+
+h3 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+p {
+  font-size: 2em;
+  text-align: center;
+}
+
+#myContainer {
+  position: fixed;
+  left: calc(50% - 350px);
+  top: calc(50% - 300px);
+}
+
+
+#box {
+  width: 250px;
+  height: 100px;
+  margin: 300px;
+  padding: 12px;
+  background-color: lavender;
+}
+
+#instruction {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+}

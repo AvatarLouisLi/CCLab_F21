@@ -1,0 +1,209 @@
+body {
+  background-color: black;
+}
+/** {
+cursor: none;
+}*/
+#video_background{
+  position: absolute;
+  width:100%;
+  z-index: -1;
+  }
+
+#abc {
+  display: none;
+}
+
+.a1{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+  animation-direction: alternate-reverse;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a2{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a3{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+  animation-delay: 8s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a4{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 2.5s;
+  animation-delay: 12s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a5{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+  animation-delay: 14.5s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a6{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+  animation-delay: 18.5s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a7{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+  animation-delay: 20s;
+  animation-direction: alternate;
+  color: white;
+  top: 55%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a8{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+  animation-delay: 24s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a9{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+  animation-delay: 28s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a10{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+  animation-delay: 32s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a11{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+  animation-delay: 36s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a12{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 4s;
+  animation-delay: 40s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top:20%;
+  left:39.5%;
+}
+
+a:hover, a:active {
+  background-color: violet;
+}
+
+
+@keyframes fade{
+    0%,100% {
+      opacity: 0;
+}
+    50%{
+      opacity: 1;
+  }
+}

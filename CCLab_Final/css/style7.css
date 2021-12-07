@@ -1,0 +1,104 @@
+#b1 {
+  font-size: 50px;
+  position: absolute;
+  top:8%;
+  left:8%;
+  color:red;
+  text-align: center;
+  display: none;
+}
+
+#b2 {
+  font-size: 50px;
+  position: absolute;
+  top:16%;
+  left:8%;
+  color:red;
+  text-align: center;
+  display: none;
+}
+
+#b3 {
+  font-size: 50px;
+  position: absolute;
+  top:24%;
+  left:8%;
+  color:red;
+  text-align: center;
+  display: none;
+}
+
+#b4 {
+  font-size: 50px;
+  position: absolute;
+  top:32%;
+  left:8%;
+  color:red;
+  text-align: center;
+  display: none;
+}
+
+a:link, a:visited{
+  background-color: transparent;
+  color: black;
+  padding: 14px 25px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: purple;
+}
+#c1 {
+  display: none;
+  position: absolute;
+  top:55%;
+  left:30%;
+}
+
+#c2 {
+  display: none;
+  position: absolute;
+  top:65%;
+  left:30%;
+}
+
+.fade-in1{
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+.fade-in2{
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+.fade-in3{
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+.fade-in4{
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+.fade-in5{
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+.fade-in6{
+  animation: fadeIn 3s;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}

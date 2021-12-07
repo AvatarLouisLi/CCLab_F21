@@ -1,0 +1,19 @@
+#rect {
+width: 100px;
+height: 100px;
+background-color: green;
+transition: all ls;
+}
+
+/*
+canvas {
+position: absolute;
+  left: 100px;
+  top: 100px;
+}
+*/
+
+#canvasFrame {
+  text-align: center;
+  margin: 40px;
+}

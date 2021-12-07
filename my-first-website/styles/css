@@ -1,0 +1,42 @@
+body {
+  font-family: Times New Roman;
+  background-color: lavender
+}
+
+p:hover {
+  background-color: grey
+}
+
+.centered {
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-weight: 900;
+}
+
+p {
+  font-size: 26px;
+}
+background
+a {
+  color: black;
+  text-decoration: ;
+  cursor: not-allowed;
+}
+
+.info_text {
+  background-color: Yellow;
+  font-weight: bold;
+}
+
+.Won {
+  background-color: green;
+  font-size: 26px
+}
+
+.Nominated {
+  background-color: rgb(255,192,203);
+  font-size: 24px
+}

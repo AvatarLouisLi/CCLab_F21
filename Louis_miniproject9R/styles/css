@@ -1,0 +1,66 @@
+body {
+  font-family: Times New Roman;
+  background-color: lavender
+}
+
+p:hover {
+  background-color: grey
+}
+
+.centered {
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  font-weight: 900;
+}
+
+p {
+  font-size: 26px;
+}
+background
+a {
+  color: black;
+  text-decoration: ;
+  cursor: not-allowed;
+}
+
+a:hover {
+  background-color: pink;
+}
+
+pre:hover {
+  background-color: aliceblue;
+}
+
+.info_text {
+  background-color: Yellow;
+  font-weight: bold;
+}
+
+.Won {
+  background-color: green;
+  font-size: 26px;
+}
+
+.Nominated {
+  background-color: rgb(255,192,203);
+  font-size: 24px;
+}
+
+.lyrics {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.HighLight1 {
+  background-color: bisque;
+  font-weight: bolder;
+}
+
+.HighLight2 {
+  background-color: lightpink;
+  font-style: oblique;
+  font-weight: bolder;
+}

@@ -1,0 +1,74 @@
+#b1 {
+  font-size: 50px;
+  position: absolute;
+  top:16%;
+  left:8%;
+  color:white;
+  text-align: center;
+  display: none;
+}
+
+#b2 {
+  font-size: 50px;
+  position: absolute;
+  top:25%;
+  left:8%;
+  color:white;
+  text-align: center;
+  display: none;
+}
+
+a:link, a:visited{
+  background-color: transparent;
+  color: violet;
+  padding: 14px 25px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: purple;
+}
+#c1 {
+  display: none;
+  position: absolute;
+  top:45%;
+  left:30%;
+}
+
+#c2 {
+  display: none;
+  position: absolute;
+  top:55%;
+  left:30%;
+}
+
+.fade-in1{
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+.fade-in2{
+  animation: fadeIn 2s;
+  opacity: 1;
+}
+
+.fade-in3{
+  animation: fadeIn 3s;
+  opacity: 1;
+}
+
+.fade-in4{
+  animation: fadeIn 3s;
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}

@@ -1,0 +1,19 @@
+setTimeout(function() {
+   let link = document.getElementById("b1");
+   link.style.display="block";
+}, 1500);
+
+setTimeout(function() {
+   let link = document.getElementById("b2");
+   link.style.display="block";
+}, 3000);
+
+setTimeout(function() {
+   let link = document.getElementById("b3");
+   link.style.display="block";
+}, 4500);
+
+setTimeout(function() {
+   let link = document.getElementById("c1");
+   link.style.display="block";
+}, 6000);

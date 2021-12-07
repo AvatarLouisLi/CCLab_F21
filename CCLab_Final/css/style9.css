@@ -1,0 +1,140 @@
+body {
+  background-color: black;
+}
+/** {
+cursor: none;
+}*/
+#video_background1{
+  position: absolute;
+  width:100%;
+  z-index: -1;
+  }
+
+#abc {
+  display: none;
+}
+
+.a1{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 6s;
+  animation-delay: 31s;
+  animation-direction: alternate-reverse;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a2{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 6s;
+  animation-delay: 37s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a3{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 7s;
+  animation-delay: 43s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a4{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 7s;
+  animation-delay: 50s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a5{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 7s;
+  animation-delay: 57s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a6{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 7s;
+  animation-delay: 64s;
+  animation-direction: alternate;
+  color: white;
+  top: 45%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+.a7{
+  animation-name: fade;
+  animation-fill-mode: both;
+  animation-duration: 7s;
+  animation-delay: 71s;
+  animation-direction: alternate;
+  color: white;
+  top: 55%;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  font-size: 70px;
+}
+
+a:link, a:visited {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  top:50%;
+  left:40%;
+}
+
+a:hover, a:active {
+  background-color: violet;
+}
+
+
+@keyframes fade{
+    0%,100% {
+      opacity: 0;
+}
+    50%{
+      opacity: 1;
+  }
+}

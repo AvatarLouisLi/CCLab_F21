@@ -1,0 +1,101 @@
+h1 {
+  font-size: 108px;
+  color:rgb(255, 230, 238);
+  position: absolute;
+  top:20%;
+  left:3.5%;
+}
+
+h2 {
+  font-size: 58px;
+  color:rgb(255, 230, 238);
+  position: absolute;
+  top:35%;
+  left:1.5%;
+}
+
+h3 {
+  font-size: 48px;
+  color:rgb(255, 204, 255);
+}
+
+a:link, a:visited {
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+li a:link {
+  padding: 0;
+  text-align: left;
+}
+
+a:hover, a:active {
+  background-color: transparent;
+  color: white;
+}
+
+.fade-in1 {
+	animation: fadeIn 4s;
+  	opacity: 1;
+}
+.fade-in2 {
+	animation: fadeIn 5s;
+  	opacity: 1;
+}
+
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}
+
+
+  *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+            color: #fff;
+            font-family: Calibri, sans-serif;
+        }
+
+        .center{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        p{
+            width: 70%;
+            font-size: 30px;
+            display: block;
+            text-align: center;
+        }
+
+        .char{
+            font-size: 40px;
+            height: 40px;
+            animation: an 1s ease-out 1 both;
+            display: inline-block;
+        }
+
+        @keyframes an{
+            from{
+                opacity: 0;
+                transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+            }
+            to{
+                opacity: 1;
+                transform: perspective(500px) translate3d(0, 0, 0);
+            }
+        }
