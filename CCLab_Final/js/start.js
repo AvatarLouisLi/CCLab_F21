@@ -7,4 +7,4 @@ video.addEventListener("canplay", function() {
 setTimeout(function() {
    let link = document.getElementById("abc");
    link.style.display="block";
-}, 88000);
+}, 86000);
