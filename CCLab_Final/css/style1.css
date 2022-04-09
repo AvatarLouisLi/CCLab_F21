@@ -45,6 +45,11 @@ a:hover, a:active {
 	animation: fadeIn 5s;
   	opacity: 1;
 }
+.fade-in3 {
+	animation: fadeIn 5s;
+  	opacity: 1;
+}
+
 
 
 @keyframes fadeIn {
