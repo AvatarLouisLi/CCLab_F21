@@ -15,8 +15,11 @@ h2 {
 }
 
 h3 {
-  font-size: 48px;
-  color:rgb(255, 204, 255);
+  font-size: 18px;
+  color: white;
+  position: absolute;
+  top:85%;
+  left:1.5%;
 }
 
 a:link, a:visited {
@@ -46,7 +49,7 @@ a:hover, a:active {
   	opacity: 1;
 }
 .fade-in3 {
-	animation: fadeIn 5s;
+	animation: fadeIn 6s;
   	opacity: 1;
 }
 
